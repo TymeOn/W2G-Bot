@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# W2G Credentials
+w2g_login.txt

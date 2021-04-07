@@ -29,7 +29,7 @@ If you are in a server with the bot, you can also send commands in its private m
 This will create a Watch2Gether Room. By default, the room will have:
 
 - no video pre-loaded
-- a dark background (#)
+- a dark background (#3B3B3B)
 - a 100% opacity
 
 Three arguments may be supplied, in any order, to customize the created room.

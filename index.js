@@ -165,7 +165,7 @@ client.on('message', (message) => {
                 const answerEmbed = new discord.MessageEmbed()
                     .setColor('#face3a')
                     .setTitle('Watch2Gether Room')
-                    .setURL('https://api.w2g.tv/rooms/' + streamKey)
+                    .setURL('https://w2g.tv/rooms/' + streamKey)
                     .attachFiles(['assets/watch2gether-icon.png'])
                     .setThumbnail('attachment://watch2gether-icon.png')
                     .addFields(

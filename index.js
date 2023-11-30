@@ -150,7 +150,7 @@ client.on('message', (message) => {
 
         // room creation
         axios
-            .post('https://w2g.tv/rooms/create.json', {
+            .post('https://api.w2g.tv/rooms/create.json', {
                 w2g_api_key: process.env.API_KEY,
                 share: video,
                 bg_color: color,
@@ -165,7 +165,7 @@ client.on('message', (message) => {
                 const answerEmbed = new discord.MessageEmbed()
                     .setColor('#face3a')
                     .setTitle('Watch2Gether Room')
-                    .setURL('https://w2g.tv/rooms/' + streamKey)
+                    .setURL('https://api.w2g.tv/rooms/' + streamKey)
                     .attachFiles(['assets/watch2gether-icon.png'])
                     .setThumbnail('attachment://watch2gether-icon.png')
                     .addFields(
